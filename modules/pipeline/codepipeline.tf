@@ -13,7 +13,7 @@ resource "aws_codepipeline" "pipeline" {
     action {
       category = "Source"
       configuration = {
-        "OAuthToken" = "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"
+        "OAuthToken" = "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"
         "Branch"               = var.repository_branch
         "Owner"                = var.repository_owner
         "PollForSourceChanges" = "false"
